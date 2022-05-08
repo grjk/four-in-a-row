@@ -1,0 +1,30 @@
+.btn {
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(52, 52, 52);
+}
+
+.btn-blue {
+    background-color: deepskyblue;
+}
+
+.btn-blue:hover {
+    background-color: rgb(47, 203, 255);
+}
+
+.btn-red {
+    background-color: tomato;
+}
+
+.btn-red:hover {
+    background-color: rgb(247, 129, 108);
+}

@@ -1,0 +1,27 @@
+.board {
+    display: flex;
+    background-color: grey;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column:hover {
+    background-color: darkgray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    background-color: rgb(234, 234, 234);
+}
